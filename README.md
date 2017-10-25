@@ -61,7 +61,7 @@ function fn(a,b){
 var result = fn(one,two);
 console.log(result);
 ```
-![示意图](http://a1.qpic.cn/psb?/V118JuTr0BKcy7/d6Q*nyfWgQXWb2yNGc748tZCKfBWezFBPUaCJcrDZWI!/b/dPMAAAAAAAAA&bo=GwWAAgAAAAADB74!&rf=viewer_4)
+![示意图](http://a1.qpic.cn/psb?/V118JuTr0BKcy7/d6Q*nyfWgQXWb2yNGc748tZCKfBWezFBPUaCJcrDZWI!/b/dPMAAAAAAAAA&bo=GwWAAgAAAAADB74!&rf=viewer_4)      
 **回调函数的一些优点**
 - 它可以在不做命名的情况下传递函数（这意味着可以节省全局变量）。
 - 可以将一个函数调用操作委托给另一个函数（这意味着可以节省一些代码编写工作）。
