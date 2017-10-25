@@ -142,7 +142,7 @@ obj2.sayMe = function(){
 ```
 3. **利用 Object.create() 方法创建对象**  
 ```js
-var obj3 = Object.create();// 由于结构不完整所以会报错，看看就好了
+var obj3 = Object.create(null);// 创建一个原型为 null 的空对象。
 // 定义对象的属性
 obj3.name = 'love';
 // 定义对象的方法
@@ -151,6 +151,7 @@ obj3.sayMe = function(){
 }
 // 对象obj4具有与对象obj3相同的属性和方法(相当于复制)
 var obj4 = Object.create(obj3);
+console.log(obj4.name);// love
 ```
 #### 调用对象
 >在调用之前要先定义对象的属性或方法
